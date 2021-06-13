@@ -1,0 +1,18 @@
+[package]
+name = "theory"
+version = "0.1.0"
+authors = ["louis"]
+edition = "2018"
+
+
+[[bin]]
+name = "lock_1"
+path = "src/lock_1.rs"
+
+[[bin]] 
+name = "lock_2"
+path = "src/lock_2.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nanoid = "0.4.0"
