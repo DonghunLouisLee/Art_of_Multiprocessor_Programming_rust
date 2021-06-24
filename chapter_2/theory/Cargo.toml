@@ -12,6 +12,10 @@ path = "src/lock_1.rs"
 [[bin]] 
 name = "lock_2"
 path = "src/lock_2.rs"
+
+[[bin]]
+name = "lock_peterson"
+path = "src/lock_peterson.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
